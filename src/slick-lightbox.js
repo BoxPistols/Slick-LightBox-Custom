@@ -65,11 +65,13 @@
           imgSourceParams = ' src="' + source + '" '
         }
         return (
-          '<div class="slick-lightbox-slick-item">\n  <div class="slick-lightbox-slick-item-inner">\n    <img class="slick-lightbox-slick-img" ' +
+          '<div class="slick-lightbox-slick-item">\n <div class="slick-lightbox-slick-item-inner" title="' +
+          'title message' +
+          '">\n <img class="slick-lightbox-slick-img" ' +
           imgSourceParams +
-          ' />\n    ' +
+          ' />\n ' +
           caption +
-          '\n  </div>\n</div>'
+          '\n </div>\n</div>'
         )
       }
       if (this.options.images) {

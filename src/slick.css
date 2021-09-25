@@ -83,14 +83,24 @@
   float: right;
 }
 
-.slick-slide img {
+/* Preview Size */
+
+.slick-slide img,
+.slick-slide source {
   display: block;
 
   max-width: 420px;
   height: 100%;
   max-height: 320px;
+  margin: auto;
 
   object-fit: cover;
+}
+
+/* TODO: img title view */
+/* タイトル表示 */
+.item:after {
+  content: attr(title);
 }
 
 /* TODO: for LightBox */
@@ -98,8 +108,8 @@
 .slick-slide img.slick-lightbox-slick-img {
   display: block;
 
-  max-width: 96%;
-  max-height: 96%;
+  max-width: 90%;
+  max-height: 90%;
   margin: 0 auto;
 }
 

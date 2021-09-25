@@ -109,10 +109,14 @@
 .slick-lightbox-slick-item-inner {
   display: inline-block;
 
-  max-width: 96%;
-  max-height: 96%;
+  max-width: 90%;
+  max-height: 90%;
 
   vertical-align: middle;
+}
+
+.slick-lightbox-slick-item-inner:after {
+  content: attr(title);
 }
 
 /* @custom: img size */
@@ -120,8 +124,8 @@
 .slick-lightbox-slick-img {
   display: block;
 
-  max-width: 96%;
-  max-height: 96%;
+  max-width: 90%;
+  max-height: 90%;
   margin: 0 auto;
 }
 
@@ -172,4 +176,30 @@
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* === Mobile === */
+
+@media screen and(max-width: 768px) {
+  .slick-lightbox-close {
+    top: 15px;
+    right: 15px;
+
+    display: block;
+
+    width: 22px;
+    height: 22px;
+    padding: 0;
+
+    border: none;
+    background: transparent;
+  }
+
+  slick-lightbox-close:before {
+    /* font-family: 'slick'; */
+
+    font-size: 22px;
+
+    content: 'xxx';
+  }
 }
