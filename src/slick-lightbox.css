@@ -180,6 +180,8 @@
 
 /* === Mobile === */
 
+/* FIXME: Dont mv */
+
 @media screen and(max-width: 768px) {
   .slick-lightbox-close {
     top: 15px;

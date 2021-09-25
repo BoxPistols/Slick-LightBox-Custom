@@ -9,9 +9,9 @@ $(function () {
 })
 
 // TODO: 番目
-$(function () {
-  $('.slick-lightbox-slick-img')
-    .eq(0) // 3番目の要素に絞り込み
-    .css('border', 'solid 4px #fff') // 枠線を設定
-    .css('background-color', '#0ff') // 背景色を設定
-})
+// $(function () {
+//   $('.slick-lightbox-slick-img')
+//     .eq(0) // 3番目の要素に絞り込み
+//     .css('border', 'solid 4px #fff') // 枠線を設定
+//     .css('background-color', '#0ff') // 背景色を設定
+// })
