@@ -1,3 +1,15 @@
+# Develop
+
+## Bower SetUp
+
+- npm install -g bower
+- bower install -S slick-lightbox
+- bower list
+
+
+---
+
+
 # slick-lightbox
 
 [![CDNJS](https://img.shields.io/cdnjs/v/slick-lightbox.svg)](https://cdnjs.com/libraries/slick-lightbox)
