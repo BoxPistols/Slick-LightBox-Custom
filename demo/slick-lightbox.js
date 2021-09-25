@@ -138,6 +138,7 @@
           this.slick = this.$modalElement
             .find('.slick-lightbox-slick')
             .slick($.extend({}, this.options.slick, additional))
+            .slick($.extend({}, this.options.slick, additional))
         }
       } else {
         this.slick = this.$modalElement
