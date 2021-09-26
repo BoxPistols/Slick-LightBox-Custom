@@ -115,8 +115,11 @@
   vertical-align: middle;
 }
 
+/* TODO: 画像直前要素のタイトル表示 */
+
 .slick-lightbox-slick-item-inner:after {
   content: attr(title);
+  text-align: center;
 }
 
 /* @custom: img size */
@@ -140,8 +143,8 @@
   line-height: 0;
 
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 5px;
+  right: 5px;
 
   display: block;
 
@@ -153,9 +156,12 @@
 
   color: transparent;
   border: none;
-  border: 1px solid #999;
+
+  /* border: 1px solid #999; */
+
   background: transparent;
-  background-color: #6666;
+
+  /* background-color: #6666; */
 }
 
 .slick-lightbox-close:focus {
@@ -166,7 +172,6 @@
   /* font-family: 'slick'; */
 
   font-size: 44px;
-  font-weight: 200;
   line-height: 1;
 
   content: '×';
@@ -184,24 +189,7 @@
 
 @media screen and(max-width: 768px) {
   .slick-lightbox-close {
-    top: 15px;
-    right: 15px;
-
-    display: block;
-
-    width: 22px;
-    height: 22px;
-    padding: 0;
-
-    border: none;
-    background: transparent;
-  }
-
-  slick-lightbox-close:before {
-    /* font-family: 'slick'; */
-
-    font-size: 22px;
-
-    content: 'xxx';
+    background: red;
   }
 }
+

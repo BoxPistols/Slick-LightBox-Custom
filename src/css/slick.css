@@ -94,7 +94,7 @@ background-image: url('../img/JPG/room-1.jpg');
 
   /* TODO: */
 }
-      
+
 /*
 .slick-slide:before {
   position: absolute;
@@ -145,6 +145,7 @@ background-image: url('../img/JPG/room-1.jpg');
 .slick-slide img.slick-lightbox-slick-img {
   display: block;
 
+  width: fit-content;
   max-width: 90%;
   max-height: 90%;
   margin: 0 auto;
@@ -160,6 +161,8 @@ background-image: url('../img/JPG/room-1.jpg');
 
 .slick-initialized .slick-slide {
   display: block;
+
+  text-align: center;
 }
 
 .slick-loading .slick-slide {

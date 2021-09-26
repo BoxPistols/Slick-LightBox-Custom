@@ -6,7 +6,7 @@ $('#slick-demo, #slick-demo2').slickLightbox({
 })
 
 // TODO:　タイトル付与テスト
-$(function () {
+/* $(function () {
   $('.altText').each(function () {
     alt = $(this)
       .addClass('pc')
@@ -14,6 +14,7 @@ $(function () {
     $(this).after('<span class="cap sp">' + alt + '</span>')
   })
 })
+*/
 
 // TODO: 番目
 // $(function () {
