@@ -53,7 +53,11 @@
   top: 0;
   left: 0;
 
-  display: block;
+  /* display: block; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slick-track:before,
@@ -129,7 +133,9 @@ background-image: url('../img/JPG/room-1.jpg');
   max-height: 320px;
   margin: auto;
 
-  object-fit: cover;
+  /* object-fit: cover; */
+
+  object-fit: contain;
 }
 
 /* TODO: img title view */
@@ -147,7 +153,10 @@ background-image: url('../img/JPG/room-1.jpg');
 
   width: fit-content;
   max-width: 90%;
-  max-height: 90%;
+
+  /* max-height: 90%; */
+
+  max-height: auto;
   margin: 0 auto;
 }
 

@@ -34,14 +34,18 @@ body {
 
 /* Base Layout */
 
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0px 30px;
+
+  background: #eee9;
+}
+
 .thumbnail img {
   display: block;
 
   width: 100%;
-}
-
-.container {
-  padding: 12px 0;
 }
 
 /* Slick LightBox */
