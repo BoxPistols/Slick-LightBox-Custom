@@ -11,12 +11,13 @@ Project Description
 
 ### In Progress
 
-- [ ] スワイプ感出すアイコン + CSS Animation  
 - [ ] Grid Layout  
-- [ ] Show More 透かし文字  
+- [ ] 背景スクロールの防止  
 
 ### Done ✓
 
+- [x] スワイプ感出すアイコン + CSS Animation  
+- [x] Show More 透かし文字  
 - [x] レスポンシブ基盤 @media  
 - [x] Title View  
 - [x] Alt View  
