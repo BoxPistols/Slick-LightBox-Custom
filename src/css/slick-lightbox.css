@@ -182,14 +182,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* === Mobile === */
-
-/* FIXME: Dont mv */
-
-@media screen and(max-width: 768px) {
-  .slick-lightbox-close {
-    background: red;
-  }
-}
-

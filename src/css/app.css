@@ -33,17 +33,19 @@ body {
   font-size: 100%;
   font-weight: 400;
 
+  box-sizing: border-box;
   min-height: 100vh;
 
   word-wrap: anywhere;
   word-break: normal;
 
-  color: #111;
   color: #234;
 
   line-break: strict;
   -webkit-font-smoothing: antialiased;
 }
+
+/* Base Layout */
 
 .thumbnail img {
   display: block;
@@ -51,11 +53,59 @@ body {
   width: 100%;
 }
 
-h2 {
-  margin-top: 30px;
+.container {
+  padding: 12px 0;
 }
 
-.container {
-  max-width: 480px;
-  margin: auto;
+/* Slick LightBox */
+
+.gallery-outer {
+  display: flex;
+
+  /* flex-wrap: wrap; */
+
+  justify-content: space-arround;
+
+  /* background: pink; */
+}
+
+.gallery-content {
+  display: none;
+
+  width: 50%;
+  height: 100%;
+  padding: 24px;
+
+  /* background: tomato; */
+}
+
+.gallery-container {
+  /* align-items: center; */
+
+  box-sizing: border-box;
+  max-width: 50%;
+
+  /* TODO: mobile */
+
+  margin: 0 auto;
+  padding: 12px 5%;
+
+  /* background: teal; */
+
+  /* justify-content: center; */
+
+  /* display: flex; */
+}
+
+.slick-group {
+  position: :relative;
+
+  /* height: 360px; */
+
+  height: auto;
+  padding-top: 24px;
+
+  /* display: inline-block; */
+
+  background: #cde4;
 }

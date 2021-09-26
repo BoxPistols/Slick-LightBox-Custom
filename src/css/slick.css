@@ -124,7 +124,7 @@ background-image: url('../img/JPG/room-1.jpg');
 .slick-slide source {
   display: block;
 
-  max-width: 420px;
+  max-width: 320px;
   height: 100%;
   max-height: 320px;
   margin: auto;

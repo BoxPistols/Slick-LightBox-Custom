@@ -63,15 +63,22 @@
   font-size: 20px;
   line-height: 1;
 
+  /* TODO */
+
+  padding: 4px;
+
   opacity: .75;
   color: white;
+  background: #666;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-prev {
-  left: -25px;
+  /* TODO: */
+
+  left: -32px;
 }
 
 [dir='rtl'] .slick-prev {

@@ -6,8 +6,6 @@ Project Description
 
 ### Todo
 
-- [ ] Title View  
-- [ ] Alt View  
 - [ ] Show More 透かし文字  
 - [ ] Grid Layout  
 - [ ] Swipe用アイコン  
@@ -16,11 +14,13 @@ Project Description
 
 ### In Progress
 
-- [ ] 横切れ 縦長画像 max設定  
+- [ ] Alt View  
+- [ ] Title View  
 - [ ] レスポンシブ基盤 @media  
 
 ### Done ✓
 
+- [x] 横切れ 縦長画像 max設定  
 - [x] jQuery  on off 両対応  
 - [x] LightBox大きさMax width: 100%;  
 - height: 50vw;  
