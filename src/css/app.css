@@ -97,4 +97,19 @@ body {
   background: #cde4;
 }
 
-/* RWD */
+/* === Mobile RWD === */
+
+@media(max-width: 768px) {
+  .gallery-outer {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .gallery-container {
+    max-width: 90%;
+  }
+
+  .slick-slide img {
+    max-width: 100%;
+  }
+}
