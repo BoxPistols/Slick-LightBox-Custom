@@ -1,19 +1,5 @@
 /* style reset */
 
-@import "https: :root { --text-blue: #38a;
-
---border-blue: solid 2px #6ac;
-
-// font 明朝
-
---family-mincho: font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-
-// デコレーション 見出し
-
---title-stripe-bg: #f5f8ff;
-
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,7 +15,8 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  /* family */
+
   font-size: 100%;
   font-weight: 400;
 
@@ -109,3 +96,5 @@ body {
 
   background: #cde4;
 }
+
+/* RWD */
