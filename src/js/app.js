@@ -2,7 +2,8 @@
 $('#slick-demo, #slick-demo2').slick()
 $('#slick-demo, #slick-demo2').slickLightbox({
   src: 'src',
-  itemSelector: '.item img'
+  itemSelector: '.item img',
+  caption: 'caption'
 })
 
 // TODO:　タイトル付与テスト

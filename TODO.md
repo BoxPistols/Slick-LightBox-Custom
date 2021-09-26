@@ -6,18 +6,17 @@ Project Description
 
 ### Todo
 
-- [ ] 共有用ダミー画像 縦横比混在  
+- [ ] Swipe用アイコン  
 - [ ] 背景ぼかし画像 縦横比対応  
 
 ### In Progress
 
+- [ ] スワイプ感出すアイコン + CSS Animation  
+- [ ] Grid Layout  
+- [ ] Show More 透かし文字  
 
 ### Done ✓
 
-- [x] スワイプ感出すアイコン + CSS Animation  
-- [x] Show More 透かし文字  
-- [x] Swipe用アイコン  
-- [x] Grid Layout  
 - [x] レスポンシブ基盤 @media  
 - [x] Title View  
 - [x] Alt View  
