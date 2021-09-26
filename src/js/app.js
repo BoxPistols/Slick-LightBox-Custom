@@ -1,10 +1,17 @@
+// Slick Target
+$('#slick-demo, #slick-demo2').slick()
+$('#slick-demo, #slick-demo2').slickLightbox({
+  src: 'src',
+  itemSelector: '.item img'
+})
+
 // TODO:　タイトル付与テスト
 $(function () {
   $('.altText').each(function () {
     alt = $(this)
       .addClass('pc')
       .attr('title')
-    $(this).before('<span class="cap sp">' + alt + '</span>')
+    $(this).after('<span class="cap sp">' + alt + '</span>')
   })
 })
 

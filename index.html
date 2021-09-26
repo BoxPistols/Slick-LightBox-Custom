@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,43 +9,22 @@
       maximum-scale=1.0, minimum-scale=1.0">
 
     <title>Slick-lightbox by mreq</title>
-    <link href="./src/slick.css" rel="stylesheet" />
-    <link href="./src/slick-theme.css" rel="stylesheet" />
-    <link href="./src/slick-lightbox.css" rel="stylesheet" />
-    <style>
-      .thumbnail img {
-        width: 100%;
-        display: block;
-      }
-      h2 {
-        margin-top: 30px;
-      }
-      .container {
-        max-width: 480px;
-        margin: auto;
-      }
-    </style>
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="./src/slick.js"></script>
-    <script src="./src/slick-lightbox.js"></script>
-    <script src="./src/js/app.js"></script>
+    <link href="./src/css/slick.css" rel="stylesheet" />
+    <link href="./src/css/slick-theme.css" rel="stylesheet" />
+    <link href="./src/css/slick-lightbox.css" rel="stylesheet" />
+    <link href="./src/css/app.css" rel="stylesheet" />
   </head>
+
   <body>
     <div class="container">
       <h2 id="slick">Existing slick</h2>
       <div id="slick-demo">
         <div class="item" title="room-1">
-          <img class="altText" src="./src/img/JPG/room-1.jpg" alt="room-1"
-            title="hoge" />
+          <img class="altText" src="./src/img/JPG/room-1.jpg" alt="room-1" title="hoge" />
         </div>
 
         <div class="item">
-          <img
-            src="./src/img/JPG/room-2.jpg"
-            alt="room-2"
-            title="room-2"
-            />
+          <img src="./src/img/JPG/room-2.jpg" alt="room-2" title="room-2" />
         </div>
 
         <div class="item">
@@ -83,49 +63,29 @@
       <div id="slick-demo2">
         Demo2 x 4
         <div class="item">
-          <img
-            src="http://placekitten.com/440/840"
-            alt=""
-            width="480"
-            height="300"
-            />
+          <img src="http://placekitten.com/440/840" alt="" width="480" height="300" />
         </div>
 
         <div class="item">
-          <img
-            src="http://placekitten.com/1011/506"
-            alt=""
-            width="480"
-            height="300"
-            />
+          <img src="http://placekitten.com/1011/506" alt="" width="480" height="300" />
         </div>
 
         <div class="item">
-          <img
-            src="http://placekitten.com/1069/536"
-            alt=""
-            width="480"
-            height="300"
-            />
+          <img src="http://placekitten.com/1069/536" alt="" width="480" height="300" />
         </div>
 
         <div class="item">
-          <img
-            src="http://placekitten.com/1049/516"
-            alt=""
-            width="480"
-            height="300"
-            />
+          <img src="http://placekitten.com/1049/516" alt="" width="480" height="300" />
         </div>
       </div>
 
-      <script type="text/javascript">
-        $('#slick-demo, #slick-demo2').slick()
-        $('#slick-demo, #slick-demo2').slickLightbox({
-          src: 'src',
-          itemSelector: '.item img'
-        })
-      </script>
+      <!-- @CDN: <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+      <script src="./src/js/jquery.min.js"></script>
+      <script src="./src/js/slick.js"></script>
+      <script src="./src/js/slick-lightbox.js"></script>
+      <script src="./src//js//app.js"></script>
     </div>
   </body>
+
 </html>

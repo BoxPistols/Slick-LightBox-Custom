@@ -6,15 +6,24 @@ Project Description
 
 ### Todo
 
+- [ ] Title View  
+- [ ] Alt View  
+- [ ] Show More 透かし文字  
+- [ ] Grid Layout  
 - [ ] Swipe用アイコン  
-- [ ] 画像縦横比  
+- [ ] スワイプ感出すアイコン + CSS Animation  
+- [ ] 背景ぼかし画像 縦横比対応  
 
 ### In Progress
 
-- [ ] LightBox大きさMax width: 100%;
-    height: 50vw;
-    object-fit: cover;  
+- [ ] 横切れ 縦長画像 max設定  
+- [ ] レスポンシブ基盤 @media  
 
 ### Done ✓
 
+- [x] jQuery  on off 両対応  
+- [x] LightBox大きさMax width: 100%;  
+- height: 50vw;  
+- [x] 画像縦横比  
+- object-fit: cover;  
 

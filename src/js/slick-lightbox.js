@@ -190,6 +190,11 @@
           return _this.$modalElement
             .find('.slick-lightbox-slick-img, .slick-lightbox-slick-item-inner')
             .css('max-height', Math.round(_this.options.imageMaxHeight * h))
+          //
+          $("'.slick-lightbox-slick-img").before(
+            '<span class="cap sp">' + alt + '</span>'
+          )
+          //
         }
       })(this)
       $(window).on(
